@@ -1,0 +1,11 @@
+{
+  "name": "turky",
+  "version": "1.0.0",
+  "description": "navbar animation",
+  "main": "index.js",
+  "author": "dev",
+  "license": "MIT",
+  "dependencies": {
+    "animejs": "^3.2.1"
+  }
+}

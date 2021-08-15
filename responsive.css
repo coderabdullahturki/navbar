@@ -1,0 +1,133 @@
+
+
+
+@media (min-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    nav .logo {
+        padding: 0 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+    }
+
+    svg#hamburger {
+        display: none;
+    }
+
+    nav ul li {
+        margin: auto;
+    }
+    nav ul li a {
+        font-size: 1.7rem;
+        padding: 0.7rem 0.8rem;
+    }
+
+    nav ul.nclick {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        position: relative;
+        transform: none;
+        left: 0;
+        top: 0;
+        right: 0;
+        background-color: transparent;
+        align-content: center;
+    }
+
+    /* hero section css */
+
+    section.hero {
+        font-size: 6.5rem;
+    }
+
+    .hero_intro {
+        flex-basis: 60%;
+    }
+    .hero_bg {
+        display: block;
+    }
+
+    .hero .wave {
+        max-width: 50rem;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: 15px;
+        z-index: -999;
+    }
+    .wave img {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 88%;
+    }
+
+    .hero h2 {
+    color: #DF6951;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30%;
+    }
+
+    .hero p {
+        font-size: 30%;
+    }
+    
+    
+
+
+}
+
+@media (min-width: 1400px) {
+    /* .container {
+        max-width: 132rem;
+    } */
+
+    
+	nav .logo {
+	width: auto !important;
+	}
+    nav ul.nclick {
+        width: 70%;
+    }
+    nav ul li a {
+        font-size: 1.8rem;
+        padding: 0.7rem 1rem;
+    }
+
+    /* hero section css */
+
+    section.hero {
+        font-size: 8.5rem;
+        padding: 1rem;
+        margin-top: 5rem;
+    }
+    .hero h1 {
+        font-size: 102%;
+        padding-right: 5rem;
+    }
+    .hero p {
+        font-size: 25%;
+        padding-right: 12rem;
+    }
+    .hero .wave {
+        max-width: 100rem;
+    }
+    .hero .buttons {
+        font-size: 25%;
+    }
+    .buttons .find_btn {
+        max-height: 7rem;
+        flex-basis: 36%;
+    }
+    .plane_mini {
+        margin-left: 50%;
+        display: block;
+    }
+}
